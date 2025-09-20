@@ -4,13 +4,6 @@ layout: default
 
 *Get the most out of your ScheduleBud trial and subscription with these power user secrets.*
 
-<style>
-/* Test CSS to ensure styles are loading */
-body { background: #f9f9f9; }
-h1 { color: #4169E1 !important; border-bottom: 3px solid #4169E1 !important; }
-h2 { color: #4169E1 !important; border-left: 4px solid #9CAF88 !important; padding-left: 15px !important; }
-</style>
-
 ## Table of Contents
 
 1. [Calendar Navigation Mastery](#calendar-navigation-mastery)
