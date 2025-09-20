@@ -1,0 +1,210 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// ScheduleBud Brand Colors
+$royal-blue: #4169E1;
+$sage-green: #9CAF88;
+$bright-orange: #FF8C00;
+$light-blue: #E6F2FF;
+$light-green: #F0F5EC;
+$light-orange: #FFF4E6;
+
+// Enhanced Typography
+h1 {
+  color: $royal-blue;
+  border-bottom: 3px solid $royal-blue;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: $royal-blue;
+  border-left: 4px solid $sage-green;
+  padding-left: 15px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: $sage-green;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+// Enhanced Links
+a {
+  color: $royal-blue;
+  text-decoration: none;
+
+  &:hover {
+    color: darken($royal-blue, 15%);
+    text-decoration: underline;
+  }
+}
+
+// Table of Contents Styling
+#table-of-contents + ol {
+  background: $light-blue;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid $royal-blue;
+
+  li {
+    margin-bottom: 8px;
+
+    a {
+      font-weight: 500;
+      color: $royal-blue;
+    }
+  }
+}
+
+// Pro Tips & Important Info
+strong {
+  color: $sage-green;
+}
+
+// Code and Technical Elements
+code {
+  background: $light-green;
+  color: darken($sage-green, 20%);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+// Blockquotes for Pro Tips
+blockquote {
+  background: $light-orange;
+  border-left: 4px solid $bright-orange;
+  padding: 15px 20px;
+  margin: 20px 0;
+  border-radius: 0 8px 8px 0;
+
+  p {
+    margin: 0;
+    color: darken($bright-orange, 20%);
+    font-style: italic;
+  }
+}
+
+// Section Navigation
+.section-nav {
+  background: linear-gradient(135deg, $light-blue 0%, $light-green 100%);
+  border: 1px solid lighten($sage-green, 20%);
+  border-radius: 8px;
+  padding: 20px;
+  margin: 30px 0;
+  text-align: center;
+
+  h4 {
+    color: $royal-blue;
+    margin: 0 0 15px 0;
+    font-size: 16px;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+
+    a {
+      background: white;
+      color: $royal-blue;
+      padding: 8px 16px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-weight: 500;
+      border: 2px solid transparent;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background: $royal-blue;
+        color: white;
+        border-color: $royal-blue;
+        transform: translateY(-2px);
+      }
+
+      &.top-link {
+        background: $sage-green;
+        color: white;
+
+        &:hover {
+          background: darken($sage-green, 10%);
+        }
+      }
+    }
+  }
+}
+
+// Icons and Emojis Enhancement
+.icon-highlight {
+  color: $bright-orange;
+  font-size: 1.2em;
+  margin-right: 5px;
+}
+
+// List Enhancements
+ul {
+  li {
+    margin-bottom: 8px;
+
+    &:before {
+      content: "▸";
+      color: $sage-green;
+      font-weight: bold;
+      margin-right: 8px;
+    }
+  }
+}
+
+// Special Highlighting
+.highlight-blue {
+  background: $light-blue;
+  padding: 3px 8px;
+  border-radius: 4px;
+  color: $royal-blue;
+  font-weight: 500;
+}
+
+.highlight-green {
+  background: $light-green;
+  padding: 3px 8px;
+  border-radius: 4px;
+  color: darken($sage-green, 20%);
+  font-weight: 500;
+}
+
+.highlight-orange {
+  background: $light-orange;
+  padding: 3px 8px;
+  border-radius: 4px;
+  color: darken($bright-orange, 20%);
+  font-weight: 500;
+}
+
+// Mobile Responsiveness
+@media (max-width: 768px) {
+  .section-nav .nav-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  .section-nav .nav-links a {
+    width: 200px;
+    text-align: center;
+  }
+}
+
+// Footer Enhancement
+hr + p em {
+  color: $sage-green;
+  font-size: 1.1em;
+}

@@ -64,6 +64,15 @@ Most students get stuck in month view and miss ScheduleBud's powerful navigation
 
 **Time Saver**: Most productive users switch views 3-4 times per session based on what they're planning.
 
+<div class="section-nav">
+  <h4>🧭 Navigate to Other Sections</h4>
+  <div class="nav-links">
+    <a href="#bulk-task-creator">Next: Bulk Task Creator ▶</a>
+    <a href="#table-of-contents" class="top-link">🔝 Table of Contents</a>
+    <a href="#sidebar-customization">◀ Previous: Sidebar Customization</a>
+  </div>
+</div>
+
 ---
 
 ## Bulk Task Creator
@@ -111,7 +120,16 @@ Creating a week of CS assignments:
 
 **Result**: 4 tasks created in 20 seconds vs. 2-3 minutes individually.
 
-**Time Saved**: 60-80% reduction in task creation time for multiple assignments.
+**Time Saved**: <span class="highlight-orange">60-80% reduction in task creation time</span> for multiple assignments.
+
+<div class="section-nav">
+  <h4>🧭 Navigate to Other Sections</h4>
+  <div class="nav-links">
+    <a href="#customize-your-navigation-bar">Next: Customize Your Navigation Bar ▶</a>
+    <a href="#table-of-contents" class="top-link">🔝 Table of Contents</a>
+    <a href="#calendar-navigation-mastery">◀ Previous: Calendar Navigation Mastery</a>
+  </div>
+</div>
 
 ---
 
@@ -168,7 +186,16 @@ Your navigation bar doesn't have to stay in the default order. Optimize it for h
 - Mid-semester: Tasks focus (execution)
 - End of semester: Grades focus (tracking)
 
-**Remember**: You can change this anytime. Experiment and find what works for your workflow.
+**Remember**: <span class="highlight-blue">You can change this anytime</span>. Experiment and find what works for your workflow.
+
+<div class="section-nav">
+  <h4>🧭 Navigate to Other Sections</h4>
+  <div class="nav-links">
+    <a href="#quick-add-vs-regular-add">Next: Quick Add vs Regular Add ▶</a>
+    <a href="#table-of-contents" class="top-link">🔝 Table of Contents</a>
+    <a href="#bulk-task-creator">◀ Previous: Bulk Task Creator</a>
+  </div>
+</div>
 
 ---
 
@@ -184,7 +211,7 @@ ScheduleBud has two ways to create tasks. Here's when to use each one for maximu
 - Simple deadlines
 - When you're in a hurry
 
-**How to Spot It**: Look for the ⚡ lightning bolt icon in your calendar header
+**How to Spot It**: Look for the <span class="highlight-orange">⚡ lightning bolt icon</span> in your calendar header
 
 **What It Includes**:
 - Task title
@@ -192,7 +219,7 @@ ScheduleBud has two ways to create tasks. Here's when to use each one for maximu
 - Class selection
 - Smart defaults for everything else
 
-**Speed Benefit**: 60% faster than full task creation
+**Speed Benefit**: <span class="highlight-green">60% faster than full task creation</span>
 
 ### 📝 Regular Add: For Detailed Planning
 
