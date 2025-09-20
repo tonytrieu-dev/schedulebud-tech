@@ -42,7 +42,7 @@ a:hover {
 }
 
 #table-of-contents + ol {
-  padding: 20px 20px 20px 60px;
+  padding: 20px 20px 20px 30px;
   border-radius: 8px;
 }
 
@@ -801,4 +801,3 @@ Your sidebar doesn't have to stay the default width. Optimize it for your screen
 
 **Found a Bug?** Let me know and I'll fix it quickly.
 
----
