@@ -616,12 +616,13 @@ Your sidebar doesn't have to stay the default width. Optimize it for your screen
 
 ## Getting More Help
 
-**Questions?** Email me at tony@schedulebud.com - I personally read and respond to every message.
+**Questions?** Email me at tony@schedulebud.app - I personally read and respond to every message.
 
 **Feature Requests?** I'm always improving ScheduleBud based on student feedback.
 
 **Found a Bug?** Let me know and I'll fix it quickly.
 
 ---
+
 
 *Built for students, by a student. - Tony*
