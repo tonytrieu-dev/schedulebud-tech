@@ -222,28 +222,16 @@ Most students get stuck in month view and miss ScheduleBud's powerful navigation
 
 ### Navigation Shortcuts You're Missing
 
-**Arrow Navigation**: Look for the left/right arrow buttons in the top-left area of your calendar
-- Located next to the current month/week/day display
-- Month view: Previous/next month instantly
-- Week view: Jump weeks without scrolling
-- Day view: Navigate day-by-day for detailed planning
+In the top-left of your calendar, you'll find the navigation controls:
 
-**Today Button**: Find the "Today" button in the top navigation bar
-- Always visible in the calendar header area
-- Instantly jump back to current date from any view
-- Essential when you're planning weeks ahead
-
-**View Buttons**: Month/Week/Day buttons located in the calendar header
-- Found in the top-right area of your calendar interface
-- One-click switching between views
-- No need to dig through menus or settings
+*   **Arrow Buttons:** Use the left and right arrows to instantly jump to the previous or next month, week, or day.
+*   **View Buttons (Month, Week, Day):** Switch between views with a single click to get the perfect perspective on your schedule.
 
 ### Pro Workflow: From Semester to Session in Seconds
 
 1.  **Month View** for the big picture.
 2.  **Week View** to plan your week.
 3.  **Day View** for hour-by-hour focus.
-4.  **"Today" button** to instantly get back to the present.
 
 **Time Saver**: Most productive users switch views 3-4 times per session based on what they're planning.
 
