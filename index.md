@@ -607,6 +607,12 @@ Your sidebar doesn't have to stay the default width. Optimize it for your screen
 
 ---
 
+### Tired of manually syncing your calendar each quarter?
+
+ScheduleBud can automate that for you in under a minute. [Learn more at schedulebud.app](https://schedulebud.app).
+
+---
+
 ## Getting More Help
 
 **Questions?** Email me at tony@schedulebud.app - I personally read and respond to every message.
