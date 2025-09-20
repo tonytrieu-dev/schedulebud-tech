@@ -22,7 +22,68 @@ h3 {
   color: #9CAF88;
   margin-top: 30px;
   margin-bottom: 15px;
+  font-weight: bold;
 }
+
+.section-nav .nav-links a.top-link:hover {
+  background: #86a174;
+}
+
+.icon-highlight {
+  color: #FF8C00;
+  font-size: 1.2em;
+  margin-right: 5px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+.highlight-blue {
+  background: #E6F2FF;
+  padding: 3px 8px;
+  border-radius: 4px;
+  color: #4169E1;
+  font-weight: 500;
+}
+
+.highlight-green {
+  background: #F0F5EC;
+  padding: 3px 8px;
+  border-radius: 4px;
+  color: #6e8c5c;
+  font-weight: 500;
+}
+
+.highlight-orange {
+  background: #FFF4E6;
+  padding: 3px 8px;
+  border-radius: 4px;
+  color: #b36200;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .section-nav .nav-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  .section-nav .nav-links a {
+    width: 200px;
+    text-align: center;
+  }
+}
+
+hr + p em {
+  color: #9CAF88;
+  font-size: 1.1em;
+}
+</style>
 
 hr {
   border: none;
