@@ -73,7 +73,7 @@ Most students get stuck in month view and miss ScheduleBud's powerful navigation
   <h4>🧭 Navigate to Other Sections</h4>
   <div class="nav-links">
     <a href="#sidebar-customization">◀ Previous: Sidebar Customization</a>
-    <a href="#bulk-task-creator">Next: Bulk Task Creator ▶</a>
+    <a href="#bulk-task-creator">▶ Next: Bulk Task Creator</a>
     <a href="#table-of-contents" class="top-link">🔝 Table of Contents</a>
   </div>
 </div>
@@ -131,7 +131,7 @@ Creating a week of CS assignments:
   <h4>🧭 Navigate to Other Sections</h4>
   <div class="nav-links">
     <a href="#calendar-navigation-mastery">◀ Previous: Calendar Navigation Mastery</a>
-    <a href="#customize-your-navigation-bar">Next: Customize Your Navigation Bar ▶</a>
+    <a href="#customize-your-navigation-bar">▶ Next: Customize Your Navigation Bar</a>
     <a href="#table-of-contents" class="top-link">🔝 Table of Contents</a>
   </div>
 </div>
@@ -197,7 +197,7 @@ Your navigation bar doesn't have to stay in the default order. Optimize it for h
   <h4>🧭 Navigate to Other Sections</h4>
   <div class="nav-links">
     <a href="#bulk-task-creator">◀ Previous: Bulk Task Creator</a>
-    <a href="#quick-add-vs-regular-add">Next: Quick Add vs Regular Add ▶</a>
+    <a href="#quick-add-vs-regular-add">▶ Next: Quick Add vs Regular Add</a>
     <a href="#table-of-contents" class="top-link">🔝 Table of Contents</a>
   </div>
 </div>
@@ -279,6 +279,15 @@ ScheduleBud has two ways to create tasks. Here's when to use each one for maximu
 
 This approach maximizes your capture speed while maintaining detailed planning for complex tasks.
 
+<div class="section-nav">
+  <h4>🧭 Navigate to Other Sections</h4>
+  <div class="nav-links">
+    <a href="#customize-your-navigation-bar">◀ Previous: Customize Your Navigation Bar</a>
+    <a href="#calendar-controls-settings">▶ Next: Calendar Controls Settings</a>
+    <a href="#table-of-contents" class="top-link">🔝 Table of Contents</a>
+  </div>
+</div>
+
 ---
 
 ## Calendar Controls Settings
@@ -354,6 +363,15 @@ ScheduleBud's calendar controls can be customized to match your usage style. Her
 
 **Result**: Personalized interface that matches your actual workflow, not default assumptions.
 
+<div class="section-nav">
+  <h4>🧭 Navigate to Other Sections</h4>
+  <div class="nav-links">
+    <a href="#quick-add-vs-regular-add">◀ Previous: Quick Add vs Regular Add</a>
+    <a href="#task-completion-shortcuts">▶ Next: Task Completion Shortcuts</a>
+    <a href="#table-of-contents" class="top-link">🔝 Table of Contents</a>
+  </div>
+</div>
+
 ---
 
 ## Task Completion Shortcuts
@@ -418,6 +436,15 @@ There's more to completing tasks in ScheduleBud than clicking checkboxes. Here a
 **Overdue Tasks**: Special styling to grab attention
 
 **Smart Strategy**: Complete tasks promptly to maintain clean active lists and build completion momentum.
+
+<div class="section-nav">
+  <h4>🧭 Navigate to Other Sections</h4>
+  <div class="nav-links">
+    <a href="#calendar-controls-settings">◀ Previous: Calendar Controls Settings</a>
+    <a href="#dark-mode--theme-customization">▶ Next: Dark Mode & Theme Customization</a>
+    <a href="#table-of-contents" class="top-link">🔝 Table of Contents</a>
+  </div>
+</div>
 
 ---
 
@@ -495,6 +522,15 @@ ScheduleBud's appearance can be customized to match your study environment and p
 
 **Remember**: The best theme is the one you'll actually use consistently. Comfort and reduced eye strain lead to better, longer study sessions.
 
+<div class="section-nav">
+  <h4>🧭 Navigate to Other Sections</h4>
+  <div class="nav-links">
+    <a href="#task-completion-shortcuts">◀ Previous: Task Completion Shortcuts</a>
+    <a href="#sidebar-customization">▶ Next: Sidebar Customization</a>
+    <a href="#table-of-contents" class="top-link">🔝 Table of Contents</a>
+  </div>
+</div>
+
 ---
 
 ## Sidebar Customization
@@ -566,6 +602,15 @@ Your sidebar doesn't have to stay the default width. Optimize it for your screen
 - Settle on what feels most natural
 
 **Remember**: The sidebar you don't notice is the sidebar that's working perfectly for your workflow.
+
+<div class="section-nav">
+  <h4>🧭 Navigate to Other Sections</h4>
+  <div class="nav-links">
+    <a href="#dark-mode--theme-customization">◀ Previous: Dark Mode & Theme Customization</a>
+    <a href="#getting-more-help">▶ Next: Getting More Help</a>
+    <a href="#table-of-contents" class="top-link">🔝 Table of Contents</a>
+  </div>
+</div>
 
 ---
 
