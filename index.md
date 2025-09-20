@@ -55,7 +55,8 @@ a:hover {
 }
 
 strong {
-  color: #9CAF88;
+  font-weight: bold;
+  color: #000;
 }
 
 code {
