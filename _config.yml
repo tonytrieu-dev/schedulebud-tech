@@ -7,7 +7,7 @@ baseurl: ""
 # SEO and social
 author: Tony
 youtube_username: schedule_bud
-github_username: schedulebud
+github_username: tonytrieu-dev
 
 # Build settings
 markdown: kramdown
