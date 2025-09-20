@@ -27,7 +27,7 @@ h3 {
 hr {
   border: none;
   border-top: 1px solid #eee;
-  margin: 80px 0;
+  margin: 50px 0;
 }
 
 a {
@@ -42,13 +42,24 @@ a:hover {
 
 #table-of-contents + ol {
   background: #E6F2FF;
-  padding: 20px;
+  padding: 20px 20px 20px 40px;
   border-radius: 8px;
   border-left: 4px solid #4169E1;
+  list-style-type: none;
 }
 
 #table-of-contents + ol li {
   margin-bottom: 8px;
+  position: relative;
+}
+
+#table-of-contents + ol li:before {
+  content: "▸";
+  color: #9CAF88;
+  font-weight: bold;
+  margin-right: 8px;
+  position: absolute;
+  left: 0;
 }
 
 #table-of-contents + ol li a {
@@ -139,13 +150,6 @@ blockquote p {
 
 ul li {
   margin-bottom: 8px;
-}
-
-ul li:before {
-  content: "▸";
-  color: #9CAF88;
-  font-weight: bold;
-  margin-right: 8px;
 }
 
 .highlight-blue {
