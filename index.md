@@ -2,8 +2,6 @@
 layout: default
 ---
 
-# ScheduleBud User Guide: Hidden Features & Pro Tips
-
 *Get the most out of your ScheduleBud trial and subscription with these power user secrets.*
 
 ## Table of Contents
