@@ -238,12 +238,12 @@ Most students get stuck in month view and miss ScheduleBud's powerful navigation
 - One-click switching between views
 - No need to dig through menus or settings
 
-### Pro Workflow Tips
+### Pro Workflow: From Semester to Session in Seconds
 
-1. **Start with Month**: Get the semester overview
-2. **Zoom to Week**: Focus on busy periods
-3. **Drop to Day**: Plan specific study sessions
-4. **Use Today Button**: Jump back to current work
+1.  **Month View** for the big picture.
+2.  **Week View** to plan your week.
+3.  **Day View** for hour-by-hour focus.
+4.  **"Today" button** to instantly get back to the present.
 
 **Time Saver**: Most productive users switch views 3-4 times per session based on what they're planning.
 
@@ -263,12 +263,7 @@ Most students get stuck in month view and miss ScheduleBud's powerful navigation
 Stop creating tasks one-by-one. ScheduleBud's Bulk Task Creator lets you add entire assignment sets in under 30 seconds.
 
 ### When to Use Bulk Creator
-
-**Perfect for**:
-- Weekly homework sets (Math 1-10, Reading Ch 1-5)
-- Recurring assignments (Discussion posts, lab reports)
-- Project milestones (Draft, revision, final submission)
-- Study session planning (Review sessions for different topics)
+Use it for any repetitive tasks, like weekly homework, recurring assignments, or project milestones.
 
 ### How It Works
 
@@ -320,54 +315,9 @@ Creating a week of CS assignments:
 
 Your navigation bar doesn't have to stay in the default order. Optimize it for how you actually use ScheduleBud.
 
-### Why Order Matters
+### Your Workflow, Your Way
 
-**First Position = Fastest Access**
-- Your most-used view should be first
-- Reduces clicks and mental overhead
-- Builds better daily habits
-
-**Common Workflows**:
-- **Calendar-Heavy Users**: Calendar → Tasks → Dashboard → Grades
-- **Task-Focused Users**: Tasks → Calendar → Dashboard → Grades
-- **Grade Trackers**: Grades → Calendar → Tasks → Dashboard
-
-### How to Reorder
-
-1. **Hover Over Navigation Items**: Look for the drag cursor
-2. **Click and Drag**: Move items left or right
-3. **Release to Drop**: New order saves automatically
-4. **Test Your Flow**: Use it for a day and adjust
-
-### Smart Reordering Strategies
-
-**For Daily Planners**:
-- Put Calendar first if you plan your day visually
-- Tasks second for quick adds and updates
-
-**For Grade-Focused Students**:
-- Grades first if you track GPA closely
-- Calendar second for assignment planning
-
-**For Study Session Users**:
-- Calendar first for session planning
-- Dashboard second for analytics review
-
-### Pro Tips
-
-**Try the "Primary View" Test**:
-- What do you check first when opening ScheduleBud?
-- That should be your first navigation item
-
-**Consider Your Study Style**:
-- Visual learners: Calendar first
-- List makers: Tasks first
-- Data lovers: Grades or Dashboard first
-
-**Adjust by Semester Phase**:
-- Start of semester: Calendar focus (planning)
-- Mid-semester: Tasks focus (execution)
-- End of semester: Grades focus (tracking)
+Drag and drop your most-used views to the front of the navigation bar. Whether you're a visual planner who loves the **Calendar** view, or a list-maker who lives in the **Tasks** view, you can customize ScheduleBud to fit your style.
 
 **Remember**: <span class="highlight-blue">You can change this anytime</span>. Experiment and find what works for your workflow.
 
@@ -481,65 +431,11 @@ ScheduleBud's calendar controls can be customized to match your usage style. Her
 **Default Behavior**: Controls appear on hover (clean look)
 **Customizable**: Make them always visible for power users
 
-### When to Use Always-Visible
+### Always-Visible vs. Hover-Only
+*   **Always-Visible:** Best for power users on larger screens who want instant access to all controls.
+*   **Hover-Only:** Creates a cleaner, more minimal interface.
 
-**Heavy Calendar Users**:
-- You switch views multiple times per session
-- You use navigation arrows frequently
-- You prefer immediate access over clean aesthetics
-
-**Productivity-Focused Students**:
-- Speed matters more than visual minimalism
-- You're constantly planning and replanning
-- You use Quick Add/Bulk Add regularly
-
-### When to Keep Hover-Only
-
-**Occasional Users**:
-- You mostly stick to one calendar view
-- You prefer clean, minimal interfaces
-- You don't mind the extra hover step
-
-**Aesthetic-Focused Users**:
-- Clean design is important to you
-- You use ScheduleBud less frequently
-- Distractions affect your focus
-
-### How to Change Settings
-
-1. **Go to Settings**: Click the gear icon
-2. **Find Calendar Preferences**: Look for "Calendar Controls"
-3. **Toggle Options**:
-   - View buttons (Month/Week/Day)
-   - Navigation arrows
-   - Quick Add buttons
-4. **Save Changes**: Settings apply immediately
-
-### Pro Tips for Each Setting
-
-**Always-Visible Strategy**:
-- Great for desktop/laptop users with larger screens
-- Reduces clicks and improves workflow speed
-- Perfect for daily planning sessions
-
-**Hover-Only Strategy**:
-- Better for tablet users or smaller screens
-- Maintains focus on calendar content
-- Good for review-focused usage
-
-**Mixed Approach**:
-- Always-visible for your most-used controls
-- Hover-only for occasional features
-- Customize based on your actual usage patterns
-
-### Quick Test
-
-**Try this**: Set everything to always-visible for one week
-- Count how often you use each control
-- Keep always-visible for frequently used ones
-- Switch back to hover for rarely used controls
-
-**Result**: Personalized interface that matches your actual workflow, not default assumptions.
+Go to **Settings > Calendar Preferences** to customize your controls.
 
 <div class="section-nav">
   <h4>🧭 Navigate to Other Sections</h4>
@@ -556,56 +452,10 @@ ScheduleBud's calendar controls can be customized to match your usage style. Her
 
 There's more to completing tasks in ScheduleBud than clicking checkboxes. Here are the productivity shortcuts power users rely on.
 
-### Completion Methods
-
-**Standard Checkbox**: Click the circle next to any task
-**Quick Selection**: Use the expanded click area around checkboxes
-**Keyboard Navigation**: Tab through tasks, Space to complete
-**Bulk Operations**: Select multiple tasks for batch completion
-
-### Smart Selection Areas
-
-**Larger Touch Targets**: The entire left side of tasks is clickable
-- Reduces precision needed for fast completion
-- Better for mobile and quick desktop use
-- No more missing small checkboxes
-
-**Visual Feedback**: Tasks show completion state immediately
-- Strikethrough text for completed items
-- Dimmed appearance to reduce visual noise
-- Easy to spot incomplete work
-
-### Productivity Patterns
-
-**Daily Review Workflow**:
-1. Scan your task list for completed work
-2. Quick-click completed items
-3. Focus remaining energy on incomplete tasks
-
-**Weekly Cleanup**:
-1. Filter to show completed tasks
-2. Review what you accomplished
-3. Archive or delete old completed items
-
-**Study Session Completion**:
-- Complete tasks as you finish them
-- Use completion as momentum building
-- Visual progress motivates continued work
-
-### Pro Tips for Fast Completion
-
-**Don't Over-Think It**:
-- Mark tasks complete when substantially done
-- Perfect completion isn't the goal - progress tracking is
-
-**Use Completion for Planning**:
-- Complete prep tasks to see what's left
-- Visual progress helps prioritize remaining work
-
-**Batch Similar Completions**:
-- Complete all reading tasks together
-- Mark all homework submissions at once
-- Process completions in focused bursts
+### Fast and Satisfying Task Completion
+*   **Quick-click** anywhere on the left side of a task to mark it complete.
+*   Use the **strikethrough** and **dimmed appearance** of completed tasks to visually separate what's done from what's left.
+*   **Complete tasks as you go** to build momentum and keep your active list clean.
 
 ### Task States You Should Know
 
