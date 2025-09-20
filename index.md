@@ -1,4 +1,8 @@
-# ScheduleBud User Guide: Hidden Features & Pro Tips
+---
+title: "ScheduleBud User Guide: Hidden Features & Pro Tips"
+description: "Get the most out of your ScheduleBud trial and subscription with these power user secrets."
+layout: default
+---
 
 *Get the most out of your ScheduleBud trial and subscription with these power user secrets.*
 
