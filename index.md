@@ -72,9 +72,9 @@ Most students get stuck in month view and miss ScheduleBud's powerful navigation
 <div class="section-nav">
   <h4>🧭 Navigate to Other Sections</h4>
   <div class="nav-links">
+    <a href="#sidebar-customization">◀ Previous: Sidebar Customization</a>
     <a href="#bulk-task-creator">Next: Bulk Task Creator ▶</a>
     <a href="#table-of-contents" class="top-link">🔝 Table of Contents</a>
-    <a href="#sidebar-customization">◀ Previous: Sidebar Customization</a>
   </div>
 </div>
 
@@ -130,9 +130,9 @@ Creating a week of CS assignments:
 <div class="section-nav">
   <h4>🧭 Navigate to Other Sections</h4>
   <div class="nav-links">
+    <a href="#calendar-navigation-mastery">◀ Previous: Calendar Navigation Mastery</a>
     <a href="#customize-your-navigation-bar">Next: Customize Your Navigation Bar ▶</a>
     <a href="#table-of-contents" class="top-link">🔝 Table of Contents</a>
-    <a href="#calendar-navigation-mastery">◀ Previous: Calendar Navigation Mastery</a>
   </div>
 </div>
 
@@ -196,9 +196,9 @@ Your navigation bar doesn't have to stay in the default order. Optimize it for h
 <div class="section-nav">
   <h4>🧭 Navigate to Other Sections</h4>
   <div class="nav-links">
+    <a href="#bulk-task-creator">◀ Previous: Bulk Task Creator</a>
     <a href="#quick-add-vs-regular-add">Next: Quick Add vs Regular Add ▶</a>
     <a href="#table-of-contents" class="top-link">🔝 Table of Contents</a>
-    <a href="#bulk-task-creator">◀ Previous: Bulk Task Creator</a>
   </div>
 </div>
 
