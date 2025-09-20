@@ -1,1 +1,0 @@
-# schedulebud-tech
