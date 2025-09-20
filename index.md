@@ -2,6 +2,198 @@
 layout: default
 ---
 
+<style>
+h1 {
+  color: #4169E1;
+  border-bottom: 3px solid #4169E1;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #4169E1;
+  border-left: 4px solid #9CAF88;
+  padding-left: 15px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #9CAF88;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 80px 0;
+}
+
+a {
+  color: #4169E1;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #264bba;
+  text-decoration: underline;
+}
+
+#table-of-contents + ol {
+  background: #E6F2FF;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #4169E1;
+}
+
+#table-of-contents + ol li {
+  margin-bottom: 8px;
+}
+
+#table-of-contents + ol li a {
+  font-weight: 500;
+  color: #4169E1;
+}
+
+strong {
+  color: #9CAF88;
+}
+
+code {
+  background: #F0F5EC;
+  color: #6e8c5c;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+blockquote {
+  background: #FFF4E6;
+  border-left: 4px solid #FF8C00;
+  padding: 15px 20px;
+  margin: 20px 0;
+  border-radius: 0 8px 8px 0;
+}
+
+blockquote p {
+  margin: 0;
+  color: #b36200;
+  font-style: italic;
+}
+
+.section-nav {
+  background: linear-gradient(135deg, #E6F2FF 0%, #F0F5EC 100%);
+  border: 1px solid #c3d3b9;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 30px 0;
+  text-align: center;
+}
+
+.section-nav h4 {
+  color: #4169E1;
+  margin: 0 0 15px 0;
+  font-size: 16px;
+}
+
+.section-nav .nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.section-nav .nav-links a {
+  background: white;
+  color: #4169E1;
+  padding: 8px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.section-nav .nav-links a:hover {
+  background: #4169E1;
+  color: white;
+  border-color: #4169E1;
+  transform: translateY(-2px);
+}
+
+.section-nav .nav-links a.top-link {
+  background: #9CAF88;
+  color: white;
+}
+
+.section-nav .nav-links a.top-link:hover {
+  background: #86a174;
+}
+
+.icon-highlight {
+  color: #FF8C00;
+  font-size: 1.2em;
+  margin-right: 5px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+ul li:before {
+  content: "▸";
+  color: #9CAF88;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.highlight-blue {
+  background: #E6F2FF;
+  padding: 3px 8px;
+  border-radius: 4px;
+  color: #4169E1;
+  font-weight: 500;
+}
+
+.highlight-green {
+  background: #F0F5EC;
+  padding: 3px 8px;
+  border-radius: 4px;
+  color: #6e8c5c;
+  font-weight: 500;
+}
+
+.highlight-orange {
+  background: #FFF4E6;
+  padding: 3px 8px;
+  border-radius: 4px;
+  color: #b36200;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .section-nav .nav-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  .section-nav .nav-links a {
+    width: 200px;
+    text-align: center;
+  }
+}
+
+hr + p em {
+  color: #9CAF88;
+  font-size: 1.1em;
+}
+</style>
+
 *Get the most out of your ScheduleBud trial and subscription with these power user secrets.*
 
 ## Table of Contents
@@ -511,6 +703,7 @@ ScheduleBud's appearance can be customized to match your study environment and p
 **Consistency Across Apps**:
 - Match your OS theme setting
 - Coordinate with other study tools
+-
 - Reduce visual context switching
 
 **Remember**: The best theme is the one you'll actually use consistently. Comfort and reduced eye strain lead to better, longer study sessions.
@@ -604,12 +797,6 @@ Your sidebar doesn't have to stay the default width. Optimize it for your screen
     <a href="#table-of-contents" class="top-link">🔝 Table of Contents</a>
   </div>
 </div>
-
----
-
-### Tired of manually syncing your calendar each quarter?
-
-ScheduleBud can automate that for you in under a minute. [Learn more at schedulebud.app](https://schedulebud.app).
 
 ---
 
