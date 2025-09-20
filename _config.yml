@@ -1,0 +1,34 @@
+theme: minima
+title: "ScheduleBud User Guide"
+description: "Hidden Features & Pro Tips - Get the most out of your ScheduleBud trial and subscription"
+url: "https://schedulebud.tech"
+baseurl: ""
+
+# SEO and social
+author: Tony
+youtube_username: schedule_bud
+github_username: schedulebud
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
+
+# Page defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
