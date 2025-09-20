@@ -41,25 +41,12 @@ a:hover {
 }
 
 #table-of-contents + ol {
-  background: #E6F2FF;
-  padding: 20px 20px 20px 40px;
+  padding: 20px 20px 20px 60px;
   border-radius: 8px;
-  border-left: 4px solid #4169E1;
-  list-style-type: none;
 }
 
 #table-of-contents + ol li {
   margin-bottom: 8px;
-  position: relative;
-}
-
-#table-of-contents + ol li:before {
-  content: "▸";
-  color: #9CAF88;
-  font-weight: bold;
-  margin-right: 8px;
-  position: absolute;
-  left: 0;
 }
 
 #table-of-contents + ol li a {
@@ -814,5 +801,3 @@ Your sidebar doesn't have to stay the default width. Optimize it for your screen
 
 ---
 
-
-*Built for students, by a student. - Tony*
