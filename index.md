@@ -4,111 +4,88 @@ layout: default
 
 # ScheduleBud User Guide
 
-*The shortcuts and features worth knowing once you start using ScheduleBud.*
+*The features that are easy to miss, and the shortcuts that save the most time.*
 
 ## Table of Contents
 
-1. [Getting Set Up](#getting-set-up)
-2. [Adding Tasks](#adding-tasks)
+1. [The Right-Click Menu](#the-right-click-menu)
+2. [Bulk Task Creator](#bulk-task-creator)
 3. [Quick Add vs. Detailed Add](#quick-add-vs-detailed-add)
-4. [Bulk Task Creator](#bulk-task-creator)
-5. [Sync Canvas Automatically](#sync-canvas-automatically)
-6. [The Smart Assistant](#the-smart-assistant)
-7. [Calendar Views and Navigation](#calendar-views-and-navigation)
+4. [Sync Canvas Automatically](#sync-canvas-automatically)
+5. [The Smart Assistant](#the-smart-assistant)
+6. [Calendar Shortcuts](#calendar-shortcuts)
+7. [Reorder the Nav Bar and Sidebar](#reorder-the-nav-bar-and-sidebar)
 8. [Email Reminders](#email-reminders)
-9. [Making It Yours](#making-it-yours)
-10. [Completing Tasks](#completing-tasks)
-11. [Getting Help](#getting-help)
+9. [Getting Help](#getting-help)
 
-## Getting Set Up
+## The Right-Click Menu
 
-- **Add your classes** in the left sidebar. Each gets a color, which is what keeps the calendar readable.
+This is the one most people never find, and it's the fastest way to do almost anything on the calendar.
 
-That's it. Pick up the rest as you go.
+- **Right-click a day** (long-press on touch) for Quick Add, Bulk Add, or Detailed Task.
+- **Right-click a task** to Edit, Complete, or Delete it without opening it.
+- **Drag a task** to another day to reschedule it. No menu needed.
 
-## Adding Tasks
-
-- **Click a day** to open Quick Add with that date filled in.
-- **Right-click a day** (long-press on touch) for the full menu: Quick Add, Bulk Add, or Detailed Task.
-- **Drag a task** to another day to reschedule it.
-- **Right-click a task** to Edit, Complete, or Delete it.
-
-> The right-click menu is the fastest path to everything. If you remember one thing, make it that.
-
-## Quick Add vs. Detailed Add
-
-**Quick Add** for the everyday stuff. Title, due date, class, and it fills the rest in. Remembers your last class and defaults to 11:59 PM. Use it for homework, readings, posts.
-
-**Detailed Add** when you need more: specific start/end time, duration, notes, or a custom task type. Think presentations, exams, big projects.
-
-Capture fast with Quick Add, then add detail to the few tasks that need it.
+A plain click on a day also works: it opens Quick Add with that date filled in.
 
 ## Bulk Task Creator
 
-For a whole batch of similar tasks (weekly homework, a run of quizzes). Open it from the right-click menu, then:
+Hiding in that right-click menu is the biggest time saver in the app. Use it for a whole batch of similar tasks, like weekly homework or a run of quizzes.
 
 1. Set the **class** and **task type** once. They apply to every row.
 2. Type your titles and dates.
 3. Create them all at once.
 
-Tips:
+The due time carries over between rows, and it remembers your last setup, so the next batch starts where you left off. Keep titles short and consistent (`HW 1`, `HW 2`, `HW 3`) and a full set takes seconds.
 
-- Keep titles short and consistent: `HW 1`, `HW 2`, `HW 3`.
-- The due time carries over, and it remembers your last setup.
+## Quick Add vs. Detailed Add
 
-A full assignment set in seconds instead of one form at a time.
+Two ways to make a task, on purpose.
+
+**Quick Add** fills in the rest for you. It remembers the class you picked last and defaults to an 11:59 PM due time, so most homework is just a title and a date.
+
+**Detailed Add** is for the few tasks that need a specific start and end time, a duration, notes, or a custom task type. Think presentations, exams, big projects.
+
+The trick: capture everything fast with Quick Add, then go back and add detail only where it matters.
 
 ## Sync Canvas Automatically
 
 Pull your Canvas deadlines in instead of retyping them:
 
 1. In Canvas: **Calendar > Calendar Feed**, copy the feed URL.
-2. In ScheduleBud: **Settings > Canvas Integrations**.
-3. Paste the URL and click **Sync Now**.
+2. In ScheduleBud: **Settings > Canvas Integrations**, paste it, and click **Sync Now**.
 
-Deadlines then appear automatically. Tune the sync under the same tab. Your feed is fetched securely and the URL isn't stored on a server.
+Your feed is fetched securely and the URL isn't stored on a server.
 
-**Course announcements:** add your Canvas API token under the same tab to pull your courses' announcements from the last 30 days. Open them anytime from the sidebar, so you don't have to log into Canvas just to check what's new.
+**Course announcements:** add your Canvas API token under the same tab to pull your courses' announcements from the last 30 days. Open them from the sidebar, so you don't have to log into Canvas just to see what's new.
 
 ## The Smart Assistant
 
-A chat panel that takes plain language:
+The chat panel takes plain language, so you can skip the forms:
 
 - Create, update, or delete tasks in normal sentences: *"add a reading for Bio due Friday."*
 - **@mention a class** to point it at the right spot.
 - It can act on several tasks at once.
 
-Tune it under **Settings > User Preferences**: Conversation Memory (context across messages) and Response Style (how brief or detailed it is).
+Under **Settings > User Preferences** you can turn on Conversation Memory (it keeps context across messages) and set Response Style (how brief or detailed it is).
 
-## Calendar Views and Navigation
+## Calendar Shortcuts
 
-- **Month** for the overview and spotting the weeks where everything piles up.
-- **Week** for busy stretches and time blocking.
-- **Day** for the heavy days, planned hour by hour.
+- In **Month view, the month and year are clickable.** Tap either to jump straight there instead of clicking the arrows over and over.
+- The view buttons and arrows **fade in on hover** by default. If you'd rather keep them visible, switch them to always-on under **Settings > General > Calendar Controls**.
 
-Navigation:
+## Reorder the Nav Bar and Sidebar
 
-- **Arrows** move forward and back in any view.
-- In Month view, the **month and year are clickable**. Jump straight to either instead of clicking arrows.
-- Controls fade in on hover by default. Set them to always-on under **Settings > General > Calendar Controls**.
+- **Nav bar:** long-press a button in the top nav to enter reorder mode, then drag the views into the order you want.
+- **Sidebar:** drag the handle on its right edge to resize it. Go wide for long course names. Your width is saved.
 
 ## Email Reminders
 
-Turn on reminders under **Settings > Notifications**:
+Turn on reminders under **Settings > Notifications** so deadlines don't sneak up on you:
 
 - Sent to your account email, or a custom address.
 - **Quiet hours** keep them out of the middle of the night.
-- A **test email** button confirms it works.
-
-## Making It Yours
-
-- **Reorder the nav bar:** long-press a button to enter reorder mode, then drag.
-- **Resize the sidebar:** drag the handle on its right edge. Go wide for long course names. Width is saved.
-- **Switch themes** under **Settings > General > Appearance**: light, dark, or **Auto** (follows your device).
-
-## Completing Tasks
-
-Click a task to mark it done. It gets a strikethrough and fades back so your active list stays clean. Overdue tasks are highlighted so they're hard to miss.
+- A **test email** button confirms it all works.
 
 ## Getting Help
 
