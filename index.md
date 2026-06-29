@@ -24,7 +24,6 @@ layout: default
 ## Getting Set Up
 
 - **Add your classes** in the left sidebar. Each gets a color, which is what keeps the calendar readable.
-- Set **semester** or **quarter** under **Settings > General** so date ranges match your school.
 
 That's it. Pick up the rest as you go.
 
