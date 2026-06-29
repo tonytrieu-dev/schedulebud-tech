@@ -2,643 +2,140 @@
 layout: default
 ---
 
-<style>
-h1 {
-  color: #4169E1;
-  border-bottom: 3px solid #4169E1;
-  padding-bottom: 10px;
-  margin-bottom: 30px;
-}
+# ScheduleBud User Guide
 
-h2 {
-  color: #4169E1;
-  border-left: 4px solid #9CAF88;
-  padding-left: 15px;
-  margin-top: 40px;
-  margin-bottom: 20px;
-}
+*The features and shortcuts that make ScheduleBud faster to use once you know they're there.*
 
-h3 {
-  color: #9CAF88;
-  margin-top: 30px;
-  margin-bottom: 15px;
-  font-weight: bold;
-}
-
-hr {
-  border: none;
-  border-top: 1px solid #eee;
-  margin: 50px 0;
-}
-
-a {
-  color: #4169E1;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #264bba;
-  text-decoration: underline;
-}
-
-#table-of-contents + ol {
-  padding: 20px 20px 20px 30px;
-  border-radius: 8px;
-}
-
-#table-of-contents + ol li {
-  margin-bottom: 8px;
-}
-
-#table-of-contents + ol li a {
-  font-weight: 500;
-  color: #4169E1;
-}
-
-strong {
-  font-weight: bold;
-  color: #000;
-}
-
-code {
-  background: #F0F5EC;
-  color: #6e8c5c;
-  padding: 2px 6px;
-  border-radius: 4px;
-  font-weight: 500;
-}
-
-blockquote {
-  background: #FFF4E6;
-  border-left: 4px solid #FF8C00;
-  padding: 15px 20px;
-  margin: 20px 0;
-  border-radius: 0 8px 8px 0;
-}
-
-blockquote p {
-  margin: 0;
-  color: #b36200;
-  font-style: italic;
-}
-
-.section-nav {
-  background: linear-gradient(135deg, #E6F2FF 0%, #F0F5EC 100%);
-  border: 1px solid #c3d3b9;
-  border-radius: 8px;
-  padding: 20px;
-  margin: 30px 0;
-  text-align: center;
-}
-
-.section-nav h4 {
-  color: #4169E1;
-  margin: 0 0 15px 0;
-  font-size: 16px;
-}
-
-.section-nav .nav-links {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 25px;
-}
-
-.section-nav .nav-links a {
-  background: white;
-  color: #4169E1;
-  padding: 8px 16px;
-  border-radius: 20px;
-  text-decoration: none;
-  font-weight: 500;
-  border: 2px solid transparent;
-  transition: all 0.3s ease;
-}
-
-.section-nav .nav-links a:hover {
-  background: #4169E1;
-  color: white;
-  border-color: #4169E1;
-  transform: translateY(-2px);
-}
-
-.section-nav .nav-links a.top-link {
-  background: #9CAF88;
-  color: white;
-}
-
-.section-nav .nav-links a.top-link:hover {
-  background: #86a174;
-}
-
-.icon-highlight {
-  color: #FF8C00;
-  font-size: 1.2em;
-  margin-right: 5px;
-}
-
-ul li {
-  margin-bottom: 8px;
-}
-
-.highlight-blue {
-  background: #E6F2FF;
-  padding: 3px 8px;
-  border-radius: 4px;
-  color: #4169E1;
-  font-weight: 500;
-}
-
-.highlight-green {
-  background: #F0F5EC;
-  padding: 3px 8px;
-  border-radius: 4px;
-  color: #6e8c5c;
-  font-weight: 500;
-}
-
-.highlight-orange {
-  background: #FFF4E6;
-  padding: 3px 8px;
-  border-radius: 4px;
-  color: #b36200;
-  font-weight: 500;
-}
-
-@media (max-width: 768px) {
-  .section-nav .nav-links {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  h2 {
-    font-size: 1.5em;
-  }
-
-  .section-nav .nav-links a {
-    width: 200px;
-    text-align: center;
-  }
-}
-
-hr + p em {
-  color: #9CAF88;
-  font-size: 1.1em;
-}
-</style>
-
-*I've been using ScheduleBud for months now, and these are the tricks that actually make a difference. Trust me—once you know these, you'll wonder how you ever managed without them.*
+I built ScheduleBud to take the busywork out of staying on top of coursework. A lot of the best parts aren't obvious at first glance, so here's a plain walkthrough of how everything fits together and the small habits that save the most time.
 
 ## Table of Contents
 
-1. [Calendar Navigation Mastery](#calendar-navigation-mastery)
-2. [Bulk Task Creator](#bulk-task-creator)
-3. [Customize Your Navigation Bar](#customize-your-navigation-bar)
-4. [Quick Add vs Regular Add](#quick-add-vs-regular-add)
-5. [Calendar Controls Settings](#calendar-controls-settings)
-6. [Task Completion Shortcuts](#task-completion-shortcuts)
-7. [Dark Mode & Theme Customization](#dark-mode--theme-customization)
-8. [Sidebar Customization](#sidebar-customization)
+1. [Getting Set Up](#getting-set-up)
+2. [Adding Tasks](#adding-tasks)
+3. [Quick Add vs. Detailed Add](#quick-add-vs-detailed-add)
+4. [Bulk Task Creator](#bulk-task-creator)
+5. [Sync Canvas Automatically](#sync-canvas-automatically)
+6. [Upload a Syllabus](#upload-a-syllabus)
+7. [The Smart Assistant](#the-smart-assistant)
+8. [Calendar Views and Navigation](#calendar-views-and-navigation)
+9. [Email Reminders](#email-reminders)
+10. [Making It Yours](#making-it-yours)
+11. [Completing Tasks](#completing-tasks)
+12. [Getting Help](#getting-help)
 
----
+## Getting Set Up
 
-## Calendar Navigation Mastery
+Two things are worth doing before anything else, and they take about a minute.
 
-I used to be one of those people who just stayed in month view all the time. Big mistake! ScheduleBud's navigation is actually pretty clever once you know what you're doing.
+First, add your classes in the sidebar on the left. Each class gets its own color, which is what makes the calendar readable at a glance later on. You can rename a class, change its color, or archive it once the semester ends.
 
-### Navigation Shortcuts You Might Be Missing
+Second, head to **Settings > General** and set your academic system to **semester** or **quarter** so date ranges line up with how your school actually runs.
 
-See those little controls in the top-left? Yeah, those are more useful than they look:
+That's the whole setup. Everything else you can pick up as you go.
 
-*   **Arrow Buttons:** Click left/right to jump around. Works in any view—month, week, or day.
-*   **View Buttons:** Honestly, this is where the magic happens. One click switches your whole perspective.
+## Adding Tasks
 
-### Switch Views Based on Your Workload
+There are a few ways to create a task, and they're all built around the calendar.
 
-Here's what I've learned about when to use each view:
+- **Click any day** to drop in a task fast. This opens Quick Add with that date already filled in.
+- **Right-click a day** (or long-press on touch) to get the full menu: Quick Add, Bulk Add, or Add Detailed Task. This is the menu most people never find, and it's where the real speed lives.
+- **Drag a task to another day** to reschedule it. No need to open anything, just pick it up and drop it.
 
-**Month View** is your bird's-eye view
-- Perfect when you're planning ahead or trying to spot those awful weeks where everything's due at once
-- I always start here when uploading a new syllabus
+Right-clicking a task that already exists gives you Edit, Mark Complete, and Delete, so you rarely have to dig through a menu to manage something.
 
-**Week View** is where I live during busy periods
-- This is your go-to during midterms and finals
-- Great for time blocking and seeing how your week actually flows
+> Tip: If you only remember one thing here, make it the right-click menu. It's the fastest path to every way of adding a task.
 
-**Day View** is for when things get intense
-- Multiple deadlines? Day view.
-- Need to plan your study sessions hour by hour? Day view.
-- It's like having a microscope for your schedule
+## Quick Add vs. Detailed Add
 
-### My Go-To Workflow
+ScheduleBud gives you two ways to create a task on purpose, because most tasks are simple and a few are not.
 
-This might sound obsessive, but I switch views constantly:
+**Quick Add** is for the everyday stuff. You give it a title, a due date, and a class, and it fills in sensible defaults for everything else. It remembers the class you picked last time, and it defaults to an 11:59 PM due time, which honestly covers most assignments. Use it for homework, readings, and discussion posts when you just need to get things on the calendar.
 
-1.  Start in **Month View** to see the big picture
-2.  Zoom into **Week View** to plan out my week
-3.  Drop down to **Day View** when I need to get granular
+**Detailed Add** is for tasks that need more. Open it when you need a specific start and end time, a duration, notes or a description, or a custom task type. Think presentations with a hard time slot, three-hour exams, or a project where you want to write yourself a reminder about what's actually due.
 
-I probably switch views 3-4 times every time I open ScheduleBud. Once you get used to it, it's second nature.
-
-<div class="section-nav">
-  <h4>🧭 Navigate to Other Sections</h4>
-  <div class="nav-links">
-    <a href="#sidebar-customization">◀ Previous: Sidebar Customization</a>
-    <a href="#bulk-task-creator">▶ Next: Bulk Task Creator</a>
-    <a href="#table-of-contents" class="top-link">🔝 Table of Contents</a>
-  </div>
-</div>
-
----
+A workflow that works well: capture almost everything with Quick Add during planning, then go back and add detail to the handful of tasks that need it. Nothing slips through, and you don't waste time filling out fields you don't need.
 
 ## Bulk Task Creator
 
-Okay, this one's a game-changer. I used to sit there creating tasks one by one like some kind of caveman. Then I discovered the Bulk Task Creator and suddenly I'm adding entire assignment sets in like 30 seconds.
+When you're staring down a whole set of similar tasks, the Bulk Task Creator is the one to reach for. Weekly homework, a string of quizzes, project milestones, that kind of thing.
 
-### When to Use It
-Anytime you're facing a bunch of similar tasks. Weekly homework, project milestones, those annoying recurring assignments—you know the drill.
+Open it from the right-click menu on any day, then:
 
-### Here's How It Works
+1. Set the **class** and **task type** once. They apply to every task in the batch.
+2. Type out your titles and dates, one row at a time.
+3. Create them all in one go.
 
-1. **Find the 📋 Button**: It's right there in your calendar header—says "Bulk Add"
-2. **Set the Basics**: Pick your class and task type once
-3. **Rapid Fire**: Just type titles and dates
-4. **It Remembers**: ScheduleBud actually remembers what you did last time, which is nice
+A few things that make it smoother:
 
-### Tips That Actually Matter
+- **Keep titles short and consistent.** "HW 1", "HW 2", "HW 3" beats spelling out "Homework Assignment One" every time.
+- **The due time carries over**, which is perfect for a class where everything is due at the same hour.
+- **It remembers your last setup**, so the next batch starts where you left off.
 
-**Keep Your Naming Simple**:
-- "HW 1", "HW 2", "HW 3" (don't be fancy—"Homework Assignment Number One" is just painful)
-- "Quiz Ch 1", "Quiz Ch 2" (stick to patterns)
+Four assignments in twenty seconds instead of clicking through four separate forms. For repeat work, it's the single biggest time saver in the app.
 
-**Group Similar Stuff**:
-- Do all your homework for one class at once
-- Batch your reading assignments
-- Project milestones work great together
+## Sync Canvas Automatically
 
-**Let It Help You**:
-- Set your class and type first—it applies to everything
-- The due time carries over, which is perfect for those classes where everything's due at 11:59 PM
-- It remembers your task types for next time
+If your school uses Canvas, you can pull your assignments and deadlines straight in instead of retyping them.
 
-### Real Example
+1. In Canvas, go to **Calendar > Calendar Feed** and copy the full feed URL.
+2. In ScheduleBud, open **Settings > Canvas Integrations**.
+3. Paste the URL and click **Sync Now**.
 
-Last week I had to add a bunch of CS assignments:
-1. Clicked 📋 Bulk Add
-2. Set it to "Computer Science" and "Homework"
-3. Typed: "HW 3", "HW 4", "Lab 2", "Reading Ch 5"
-4. Set the dates and hit Create All
+From then on your Canvas deadlines show up on your calendar automatically. You can adjust how and when it syncs under the same tab. Your Canvas feed is fetched securely and the URL isn't stored on a server.
 
-Boom. Four tasks in maybe 20 seconds. Would've taken me 2-3 minutes doing them one by one.
+## Upload a Syllabus
 
-Honestly, for multiple assignments, this saves me <span class="highlight-orange">way more time than it should</span>.
+Every class can hold its own syllabus. Open a class and upload the file so it's always one click away when you need to check a policy or a date.
 
-<div class="section-nav">
-  <h4>🧭 Navigate to Other Sections</h4>
-  <div class="nav-links">
-    <a href="#calendar-navigation-mastery">◀ Previous: Calendar Navigation Mastery</a>
-    <a href="#customize-your-navigation-bar">▶ Next: Customize Your Navigation Bar</a>
-    <a href="#table-of-contents" class="top-link">🔝 Table of Contents</a>
-  </div>
-</div>
+On the Student Plan, the syllabus does more than sit there. ScheduleBud reads the schedule out of it and turns those dates into tasks for you, so a semester's worth of deadlines lands on your calendar without you typing each one.
 
----
+## The Smart Assistant
 
-## Customize Your Navigation Bar
+The assistant is a chat panel that understands plain language. Instead of clicking through forms, you can just tell it what you need.
 
-Here's something most people don't realize: you can actually rearrange your navigation bar. I know, mind-blowing stuff.
+- Ask it to create, update, or delete tasks in normal sentences, like "add a reading for Bio due Friday."
+- **@mention a class** to point it at the right place. The input even hints at this: *"Ask anything, or @mention a class."*
+- It can act on several tasks at once, so cleaning up or rescheduling a batch is a sentence rather than a chore.
 
-### Make It Work for You
+Under **Settings > User Preferences** you can tune how it behaves. Conversation Memory lets it remember context across messages, and Response Style controls how brief or detailed its answers are.
 
-Just drag and drop your favorite views to the front. I'm a visual person, so I keep **Calendar** first. But if you're more of a list person who practically lives in **Tasks**, move that up front.
+## Calendar Views and Navigation
 
-**The best part?** <span class="highlight-blue">You can change this whenever you want</span>. I've probably rearranged mine three times this semester as my workflow changed.
+The calendar has three views, and switching between them is the habit that makes it click.
 
-<div class="section-nav">
-  <h4>🧭 Navigate to Other Sections</h4>
-  <div class="nav-links">
-    <a href="#bulk-task-creator">◀ Previous: Bulk Task Creator</a>
-    <a href="#quick-add-vs-regular-add">▶ Next: Quick Add vs Regular Add</a>
-    <a href="#table-of-contents" class="top-link">🔝 Table of Contents</a>
-  </div>
-</div>
+- **Month** is your overview. Start here when you upload a syllabus or plan a stretch of weeks, since it's the easiest way to spot the weeks where everything piles up.
+- **Week** is where to live during a busy stretch like midterms. It's good for time blocking and seeing how the days actually flow together.
+- **Day** is for the heavy days. When several things are due, drop into Day view and plan it out hour by hour.
 
----
+A couple of navigation details worth knowing:
 
-## Quick Add vs Regular Add
+- The **arrows** move you forward and back in whatever view you're in.
+- In Month view, the **month and year are clickable**. Tap either one to jump straight to a different month or year instead of clicking the arrow a dozen times.
 
-So ScheduleBud gives you two ways to create tasks, and honestly, knowing when to use which one makes a huge difference.
+By default the view buttons and arrows fade in when you hover, which keeps things clean. If you'd rather have them visible all the time, flip them to always-on under **Settings > General > Calendar Controls**. The same setting covers the Quick Add and Bulk Add controls.
 
-### ⚡ Quick Add: For When You're Moving Fast
+## Email Reminders
 
-**I use this for**:
-- Basic homework (you know, the usual stuff)
-- Reading assignments
-- Simple deadlines
-- When I'm in a rush and just need to capture everything
+So deadlines don't sneak up on you, ScheduleBud can email you reminders. Turn them on under **Settings > Notifications**.
 
-**Where to find it**: That <span class="highlight-orange">⚡ lightning bolt</span> in your calendar header
+- Reminders go to your account email by default, or you can set a different address.
+- **Quiet hours** let you set an active window so you're not getting pinged in the middle of the night.
+- There's a **test email** button so you can confirm everything's working before you rely on it.
 
-**What you get**:
-- Task title
-- Due date
-- Class selection
-- Everything else gets sensible defaults
+## Making It Yours
 
-**Why it's great**: <span class="highlight-green">Way faster than the full thing</span>—like 60% faster
+A few small customizations that add up to a setup that fits how you work.
 
-### 📝 Regular Add: For the Complex Stuff
+**Reorder the navigation bar.** Long-press a button in the top nav to enter reorder mode, then drag the views into the order you want. If you mostly live in Tasks, move it to the front. You can rearrange it any time as your routine changes.
 
-**I switch to this when**:
-- I've got a complex project with lots of moving pieces
-- It's time-specific (like a presentation at 2:30 PM)
-- I need to add notes or descriptions
-- Canvas sync is being weird and needs customization
+**Resize the sidebar.** Drag the handle on the right edge of the sidebar to make it wider or narrower. Go wide if you have long course names like "Organic Chemistry Laboratory," or keep it narrow to hand more room to the calendar. Your width is saved.
 
-**How to get there**: Click the "+" button for the full modal
+**Switch themes.** ScheduleBud comes in light and dark, set under **Settings > General > Appearance**. Dark mode is easier on the eyes for late sessions, light mode is nice in a bright room, and **Auto** simply follows whatever your device is set to. Changes apply right away.
 
-**What you get**:
-- Everything from Quick Add, plus:
-- Specific times (start, end, duration)
-- Description fields
-- Custom task types
-- Canvas integration controls
+## Completing Tasks
 
-### Which One Should You Use?
+Checking things off is quick by design. Click a task to mark it done, and it gets a strikethrough and fades back so your active list stays clear. Overdue tasks get highlighted so they're hard to ignore. Marking things complete as you finish them keeps the list honest and, frankly, feels good.
 
-**Go with Quick Add when**:
-- ✅ It's just regular homework
-- ✅ 11:59 PM deadline works (which, let's be honest, is most of the time)
-- ✅ You don't need notes
-- ✅ You're adding a bunch of simple stuff
+## Getting Help
 
-**Use Regular Add when**:
-- ✅ You need a specific time (like that dreaded 8 AM presentation)
-- ✅ Duration actually matters (3-hour exams, ugh)
-- ✅ You need to write yourself notes
-- ✅ Canvas is being Canvas and you need to fix something
-
-### My Strategy
-
-**Most of the time, I use Quick Add**
-- I capture about 80% of my tasks this way
-- Get everything in first, worry about details later
-
-**The defaults actually work**:
-- It remembers which class I picked last time
-- Task types are usually right
-- 11:59 PM is perfect for most assignments
-
-**My "capture then refine" approach**:
-- Quick Add during those frantic planning sessions
-- Go back later to add details to the important stuff
-- Best of both worlds—nothing falls through the cracks
-
-**For example**:
-- Quick Add: "Math HW 5", "Read Ch 3", "Discussion Post"
-- Regular Add: "Final Presentation" (because I need to block out that specific time)
-
-This way I capture everything fast but still plan the complex stuff properly.
-
-<div class="section-nav">
-  <h4>🧭 Navigate to Other Sections</h4>
-  <div class="nav-links">
-    <a href="#customize-your-navigation-bar">◀ Previous: Customize Your Navigation Bar</a>
-    <a href="#calendar-controls-settings">▶ Next: Calendar Controls Settings</a>
-    <a href="#table-of-contents" class="top-link">🔝 Table of Contents</a>
-  </div>
-</div>
-
----
-
-## Calendar Controls Settings
-
-So those calendar controls? You can actually customize how they work. I had no idea for the longest time.
-
-### What We're Talking About
-
-**View Buttons**: Those Month/Week/Day switchers
-**Navigation Arrows**: The previous/next buttons
-**Quick Actions**: Your ⚡ Quick Add and 📋 Bulk Add buttons
-
-**By default**: They show up when you hover (keeps things clean)
-**But you can change it**: Make them always visible if you want
-
-### Always-Visible vs. Hover-Only
-*   **Always-Visible:** I switched to this because I got tired of hunting for buttons. Great if you have a bigger screen.
-*   **Hover-Only:** Cleaner look, but sometimes I forget where things are.
-
-Just go to **Settings > Calendar Preferences** if you want to mess with this.
-
-<div class="section-nav">
-  <h4>🧭 Navigate to Other Sections</h4>
-  <div class="nav-links">
-    <a href="#quick-add-vs-regular-add">◀ Previous: Quick Add vs Regular Add</a>
-    <a href="#task-completion-shortcuts">▶ Next: Task Completion Shortcuts</a>
-    <a href="#table-of-contents" class="top-link">🔝 Table of Contents</a>
-  </div>
-</div>
-
----
-
-## Task Completion Shortcuts
-
-Completing tasks isn't just about checkboxes. There are some neat shortcuts that make the whole process way more satisfying.
-
-### Making It Feel Good
-*   **Quick-click** anywhere on the left side of a task. Done.
-*   I love how completed tasks get that **strikethrough** and fade out—makes it super clear what's finished.
-*   **Check things off as you go**. Trust me, it builds momentum and keeps your list from getting overwhelming.
-
-### What the Different States Mean
-
-**Active Tasks**: Normal looking, ready to tackle
-**Completed Tasks**: Strikethrough and faded (but you can still see them)
-**Overdue Tasks**: Get highlighted so they're impossible to ignore
-
-**My approach**: I check things off as soon as I'm done. Keeps the active list clean and honestly, it just feels good.
-
-<div class="section-nav">
-  <h4>🧭 Navigate to Other Sections</h4>
-  <div class="nav-links">
-    <a href="#calendar-controls-settings">◀ Previous: Calendar Controls Settings</a>
-    <a href="#dark-mode--theme-customization">▶ Next: Dark Mode & Theme Customization</a>
-    <a href="#table-of-contents" class="top-link">🔝 Table of Contents</a>
-  </div>
-</div>
-
----
-
-## Dark Mode & Theme Customization
-
-Okay, let's talk themes. ScheduleBud looks good in both light and dark mode, and switching between them actually makes more of a difference than you'd think.
-
-### Why Dark Mode Is Actually Great
-
-**For those late-night cram sessions**:
-- Way easier on your eyes when the lights are dim
-- Less blue light (which is supposedly better for sleep, though let's be honest, we're probably up late anyway)
-- Saves battery on laptops
-
-**Helps you focus**:
-- Dark backgrounds are less distracting
-- Your tasks really pop
-- Calendar events are easier to spot
-
-**Looks professional**:
-- Modern and clean
-- Perfect when you're screen sharing
-- Matches most other apps you're probably using
-
-### When I Use Each Theme
-
-**Light Mode**:
-- Daytime work, especially when there's good natural light
-- When I'm reading a lot (somehow easier on my eyes)
-- Screen sharing with people who might find dark mode jarring
-
-**Dark Mode**:
-- Evening work (pretty much my default after 6 PM)
-- Long study sessions
-- When I want to reduce eye strain
-
-**Fun fact**: Some people actually switch automatically based on time of day. I just pick one and stick with it for weeks at a time.
-
-### How to Switch
-
-1. **Settings Menu**: Hit that gear icon
-2. **Appearance Section**: Theme options are right there
-3. **Instant**: Changes happen immediately
-4. **System Sync**: You can set it to follow whatever your computer is doing
-
-### My Take on Choosing
-
-**Try both for different types of work**:
-- I use light mode when I'm doing a lot of reading
-- Dark mode for planning and task management
-
-**Think about your setup**:
-- Match your lighting situation
-- Consider what other apps you're using
-- Remember if you share your screen a lot
-
-**Honestly, it's personal**:
-- Some people are just light mode people, others are dark mode people
-- Try each for a few days
-- Go with whatever doesn't make you squint
-
-### Getting Fancy With It
-
-**Some people get really into theme workflows**:
-- Light mode for morning planning sessions
-- Dark mode for evening reviews
-- It's like visual cues for different types of work
-
-**Consistency matters**:
-- Match your computer's theme
-- Coordinate with your other apps
-- Less jarring when switching between things
-
-**Bottom line**: Pick whatever doesn't strain your eyes. The best theme is the one that lets you work longer without getting tired.
-
-<div class="section-nav">
-  <h4>🧭 Navigate to Other Sections</h4>
-  <div class="nav-links">
-    <a href="#task-completion-shortcuts">◀ Previous: Task Completion Shortcuts</a>
-    <a href="#sidebar-customization">▶ Next: Sidebar Customization</a>
-    <a href="#table-of-contents" class="top-link">🔝 Table of Contents</a>
-  </div>
-</div>
-
----
-
-## Sidebar Customization
-
-Here's something I wish I'd known earlier: you can resize the sidebar. Sounds simple, but it actually makes a big difference depending on your setup.
-
-### Why This Actually Matters
-
-**Narrow sidebar (the default)**:
-- More room for your actual calendar
-- Works well on smaller screens
-- Less visual clutter
-
-**Wide sidebar**:
-- You can actually read your full class names
-- Easier to click on things
-- Better if you have long course names (looking at you, "Organic Chemistry Laboratory")
-
-### How to Do It
-
-**Just drag**: Look for the resize handle on the right edge of the sidebar
-**You'll see a preview**: Shows you what it'll look like as you drag
-**It remembers**: Your preferred width gets saved
-**It has limits**: Can't make it so narrow or wide that it becomes useless
-
-### What Width Works When
-
-**Got long course names?** Go wider
-- "Introduction to Statistics for Business"
-- "Organic Chemistry Laboratory"
-- "History of Western Civilization"
-- You know the type
-
-**Taking a lot of classes?** Medium width works well
-- 5+ classes and you'll want to read the names without squinting
-- Saves you from constantly scrolling
-
-**Simple setup?** Keep it narrow
-- Short names like "Math", "CS", "Bio"
-- Only 3-4 classes
-- Big monitor and you want to focus on the calendar
-
-### Organization Tips
-
-**Order matters**:
-- Put your most-used classes at the top
-- I go by priority, but alphabetical works too
-- Drop finished classes as the semester goes on
-
-**Make scanning easy**:
-- Wider sidebar = you find classes faster
-- Keep things in the same spots
-- The color coding actually helps more than you'd think
-
-### My Recommendations
-
-**Based on your screen**:
-- **Big monitors (24"+)**: Go wider, you've got the real estate
-- **Laptop**: Medium width usually hits the sweet spot
-- **Small screen**: Keep it narrow, you need every pixel for content
-
-**Based on how you work**:
-- **Always switching classes**: Wider makes clicking easier
-- **Live in calendar view**: Narrower gives you more calendar space
-- **Bit of both**: Medium width is probably your friend
-
-**Honestly, just experiment**:
-- Try wide for a week
-- Try narrow for a week
-- You'll know what feels right
-
-**The best sidebar is the one you don't think about**—it just works for how you actually use ScheduleBud.
-
-<div class="section-nav">
-  <h4>🧭 Navigate to Other Sections</h4>
-  <div class="nav-links">
-    <a href="#dark-mode--theme-customization">◀ Previous: Dark Mode & Theme Customization</a>
-    <a href="#getting-more-help">▶ Next: Getting More Help</a>
-    <a href="#table-of-contents" class="top-link">🔝 Table of Contents</a>
-  </div>
-</div>
-
----
-
-## Getting More Help
-
-**Questions?** Email me at tony@schedulebud.app - I personally read and respond to every message.
-
-**Feature Requests?** I'm always improving ScheduleBud based on student feedback.
-
-**Found a Bug?** Let me know and I'll fix it quickly.
-
+Have a question, hit a bug, or want a feature? Email me at **tony@schedulebud.app**. I read and reply to every message myself, and a lot of what's in ScheduleBud started as a suggestion from a student using it.
