@@ -69,6 +69,8 @@ Pull your Canvas deadlines in instead of retyping them:
 
 Deadlines then appear automatically. Tune the sync under the same tab. Your feed is fetched securely and the URL isn't stored on a server.
 
+**Course announcements:** add your Canvas API token under the same tab to pull your courses' announcements from the last 30 days. Open them anytime from the sidebar, so you don't have to log into Canvas just to check what's new.
+
 ## Upload a Syllabus
 
 Open a class and upload its syllabus so it's one click away. On the Student Plan, ScheduleBud reads the schedule out of it and turns those dates into tasks for you.
