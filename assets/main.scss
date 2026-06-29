@@ -64,12 +64,23 @@ h3 {
 }
 
 // Subtitle: the first emphasized line under the H1
+h1 + p {
+  margin: 0.75rem 0 0;
+}
+
 h1 + p em {
   display: block;
   font-style: normal;
   color: $muted;
   font-size: 1.05rem;
-  margin-top: 0.2rem;
+}
+
+// The intro's TOC heading follows the subtitle directly, so it doesn't
+// need the full section gap the later h2 dividers carry.
+h1 + p + h2 {
+  margin-top: 1.75rem;
+  padding-top: 0;
+  border-top: none;
 }
 
 p, li {
