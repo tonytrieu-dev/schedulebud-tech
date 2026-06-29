@@ -13,13 +13,12 @@ layout: default
 3. [Quick Add vs. Detailed Add](#quick-add-vs-detailed-add)
 4. [Bulk Task Creator](#bulk-task-creator)
 5. [Sync Canvas Automatically](#sync-canvas-automatically)
-6. [Upload a Syllabus](#upload-a-syllabus)
-7. [The Smart Assistant](#the-smart-assistant)
-8. [Calendar Views and Navigation](#calendar-views-and-navigation)
-9. [Email Reminders](#email-reminders)
-10. [Making It Yours](#making-it-yours)
-11. [Completing Tasks](#completing-tasks)
-12. [Getting Help](#getting-help)
+6. [The Smart Assistant](#the-smart-assistant)
+7. [Calendar Views and Navigation](#calendar-views-and-navigation)
+8. [Email Reminders](#email-reminders)
+9. [Making It Yours](#making-it-yours)
+10. [Completing Tasks](#completing-tasks)
+11. [Getting Help](#getting-help)
 
 ## Getting Set Up
 
@@ -70,10 +69,6 @@ Pull your Canvas deadlines in instead of retyping them:
 Deadlines then appear automatically. Tune the sync under the same tab. Your feed is fetched securely and the URL isn't stored on a server.
 
 **Course announcements:** add your Canvas API token under the same tab to pull your courses' announcements from the last 30 days. Open them anytime from the sidebar, so you don't have to log into Canvas just to check what's new.
-
-## Upload a Syllabus
-
-Open a class and upload its syllabus so it's one click away. On the Student Plan, ScheduleBud reads the schedule out of it and turns those dates into tasks for you.
 
 ## The Smart Assistant
 
